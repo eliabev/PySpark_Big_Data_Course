@@ -1,1 +1,1 @@
-python3 -m venv spark_env && source spark_env/bin/activate && pip3 install --upgrade pip && pip3 install psutil pyspark jupyter ipykernel && python3 -m ipykernel install --user --name=spark_env --display-name="Python (Spark)"
+python3 -m venv spark_env && source spark_env/bin/activate && pip3 install --upgrade pip && pip3 install psutil pyspark jupyter ipykernel pandas pyarrow && python3 -m ipykernel install --user --name=spark_env --display-name="Python (Spark)"
